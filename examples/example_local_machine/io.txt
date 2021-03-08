@@ -1,0 +1,26 @@
+
+
+test=2
+machine=1 # 1 for local machine and 2 for TACC
+
+alpha= ,-0.1,0.1,0.05,-0.05, #The U values one wants to apply
+ 
+isim=0  #Keep symmetries 
+
+# VASP inputs #
+
+V.ISYM=0
+V.ISPIN=1
+V.LREAL=False
+V.ENCUT=350
+V.SIGMA=0.05
+V.ISMEAR=0
+V.NELM=60
+V.AMIX=-1
+V.NSW=15
+V.ISIF=2
+V.IBRION=2
+V.EDIFFG=-0.01
+
+
+################
